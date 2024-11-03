@@ -45,8 +45,8 @@ with open(file_to_load, encoding="utf-8") as election_data:
             #this runs when the candidate name is in the list , it then uses += to add one more.
             Can_Votes[row[2]] += 1
         
-        # Print a loading indicator (for large datasets)
-        print(". ", end="")
+        # Print a loading indicator (for large datasets) removed as data was not large enough to delay
+        #print(" ", end="")
 
 
 #declare variable to hold our candidates + percent amount and total votes iteration
